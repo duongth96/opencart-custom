@@ -8264,3 +8264,26 @@ INSERT INTO `oc_zone_to_geo_zone` (`zone_to_geo_zone_id`, `country_id`, `zone_id
 (107, 222, 3954, 3, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (108, 222, 3955, 3, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (109, 222, 3972, 3, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+-----------------------------------------------------------duong-edit
+
+--
+-- Table structure for table `oc_aticle_category`
+--
+
+DROP TABLE IF EXISTS `oc_aticle_category`;
+CREATE TABLE `oc_aticle_category` (
+  `weight_class_id` int(11) NOT NULL AUTO_INCREMENT,
+  `value` decimal(15,8) NOT NULL DEFAULT '0.00000000',
+  PRIMARY KEY (`weight_class_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Dumping data for table `oc_weight_class`
+--
+
+INSERT INTO `oc_weight_class` (`weight_class_id`, `value`) VALUES
+(1, '1.00000000'),
+(2, '1000.00000000'),
+(5, '2.20460000'),
+(6, '35.27400000');
+
