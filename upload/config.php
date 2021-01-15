@@ -6,10 +6,10 @@ define('HTTP_SERVER', 'http://localhost:8080/opencart/upload/');
 define('HTTPS_SERVER', 'http://localhost:8080/opencart/upload/');
 
 // DIR
-define('DIR_APPLICATION', '/home/duongth/htdocs/opencart/upload/catalog/');
-define('DIR_SYSTEM', '/home/duongth/htdocs/opencart/upload/system/');
-define('DIR_IMAGE', '/home/duongth/htdocs/opencart/upload/image/');
-define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
+define('DIR_APPLICATION', 'F:\www\opencart/upload/article/');
+define('DIR_SYSTEM', 'F:\www\opencart/upload/system/');
+define('DIR_IMAGE', 'F:\www\opencart/upload/image/');
+define('DIR_STORAGE', 'F:/www/opencart/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
@@ -25,6 +25,6 @@ define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_DATABASE', 'open_cart_01');
+define('DB_DATABASE', 'opencart_test');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
